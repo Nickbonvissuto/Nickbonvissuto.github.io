@@ -1,0 +1,19 @@
+
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Space between images */
+    padding: 20px; /* Padding around the gallery */
+}
+
+.gallery-item {
+    max-width: 300px; /* Maximum width for each image */
+    width: auto; /* Allow width to scale */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.2s; /* Animation for hover effect */
+    object-fit: contain; /* Ensure images fill their container while maintaining aspect ratio */
+}
+
+
