@@ -16,4 +16,12 @@
     object-fit: contain; /* Ensure images fill their container while maintaining aspect ratio */
 }
 
+.gallery-image-container {
+    color: white;
+}
+
+.gallery-text {
+    color: white;
+}
+
 
